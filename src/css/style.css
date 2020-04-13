@@ -1,0 +1,10 @@
+.container { width: 1170px; margin: auto; }
+
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.navbar { padding: 20px 0; }
+
+.navbar__main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.navbar__logo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+/*# sourceMappingURL=style.css.map */
