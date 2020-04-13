@@ -1,10 +1,30 @@
-.container { width: 1170px; margin: auto; }
-
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.navbar { padding: 20px 0; }
+body { font-family: Roboto, sans-serif; margin: 0; padding: 0; }
 
-.navbar__main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.container { width: 1170px; margin: auto; }
 
-.navbar__logo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+.navbar { padding: 20px 0; margin-bottom: 30px; }
+
+.navbar__main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.navbar__input input { height: 40px; width: 690px; background: url(/img/home.png) 95% 55% no-repeat; border: #BFBFBF 1px solid; padding-left: 25px; }
+
+.navbar__input img { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; margin: 9px -23px 0 8px; z-index: 1; float: left; }
+
+.navbar__logo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; width: 100px; }
+
+.navbar__logo span { margin-left: 15px; font-size: 15px; }
+
+.navbar__button img { background-color: #000; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; margin: 9px -23px 8px 8px; z-index: 2; float: left; }
+
+.navbar__button input { border: none; border-radius: 2px; padding: 11px 22px; }
+
+.navbar__button input:nth-child(2) { background: url(/img/human.png) 5% 5% no-repeat; color: #fff; background: #1890FF; }
+
+.navbar__button input:nth-child(3) { background: #BFBFBF; }
+
+.header__main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.header__main img { width: 1200px; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
 /*# sourceMappingURL=style.css.map */

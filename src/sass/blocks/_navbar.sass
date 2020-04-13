@@ -1,11 +1,51 @@
-*
-  box-sizing: border-box
 .navbar
   padding: 20px 0
+  margin-bottom: 30px
   &__main
     display: flex
     justify-content: space-between
     align-items: center
+    flex-wrap: wrap
+  &__input
+    input
+      height: 40px
+      width: 690px
+      background: url(/img/home.png) 95% 55% no-repeat
+      border: $grey 1px solid
+      padding-left: 25px
+    img
+      align-self: center
+      margin: 9px -23px 0 8px
+      z-index: 1
+      float: left
   &__logo
     display: flex
     flex-direction: row
+    width: 100px
+    span
+      margin-left: 15px
+      font-size: 15px
+  &__button
+    img
+      background-color: #000
+      align-self: center
+      margin: 9px -23px 8px 8px
+      z-index: 2
+      float: left
+    input 
+      border: none
+      border-radius: 2px
+      padding: 11px 22px
+    input:nth-child(2)
+      background: url(/img/human.png) 5% 5% no-repeat
+      color: #fff
+      background: #1890FF
+    input:nth-child(3)
+      background: $grey
+.header__main
+  display: flex
+  justify-content: center
+  img
+    width: 1200px
+    align-self: center
+// Блок меню
