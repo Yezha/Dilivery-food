@@ -4,6 +4,8 @@ body
   font-family: Roboto, sans-serif
   margin: 0
   padding: 0
+img
+  max-width: 100%
 .container
   width: 1170px
   margin: auto
@@ -11,3 +13,42 @@ input
   outline: none
 .background
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%)
+@media (max-width: 1200px)
+  .container
+    width: 900px
+  .navbar
+    width: 900px
+    &__input
+      display: none
+@media (max-width: 900px)
+  .container
+    width: 770px
+  .navbar
+    width: 750px
+  header
+    width: 800px
+  .menu__text
+    input, img
+      display: none
+@media (max-width: 680px)
+  .container
+    width: 500px
+  .header__main
+    img
+      display: none
+  .navbar
+    &__main
+      width: 350px
+  .footer
+    width: 400px
+    &__main
+      display: flex
+      justify-content: space-between
+      flex-direction: column
+    &__logo
+      margin-bottom: 40px
+      &_img
+        img, span
+          display: none
+    &__network
+      min-width: 300px
