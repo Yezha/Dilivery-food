@@ -7,48 +7,62 @@ body
 img
   max-width: 100%
 .container
-  width: 1170px
+  max-width: 1170px
   margin: auto
 input
+  padding: 8px 15px 8px 25px
   outline: none
 .background
+    width: 100%
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%)
-@media (max-width: 1200px)
+@media (max-width: 1170px)
   .container
     width: 900px
-  .navbar
-    width: 900px
-    &__input
-      display: none
 @media (max-width: 900px)
   .container
-    width: 770px
-  .navbar
-    width: 750px
-  header
-    width: 800px
-  .menu__text
-    input, img
-      display: none
-@media (max-width: 680px)
-  .container
-    width: 500px
-  .header__main
-    img
-      display: none
-  .navbar
+    width: 775px
+  .header
     &__main
-      width: 350px
+      img
+        width: 775px
   .footer
-    width: 400px
     &__main
       display: flex
-      justify-content: space-between
       flex-direction: column
     &__logo
-      margin-bottom: 40px
+      margin-bottom: 12px 
       &_img
         img, span
           display: none
+@media (max-width: 768px)
+  .container
+    width: 600px
+  .navbar
+    &__input
+      display: none
+  .header
+    &__main
+      img
+        width: 600px
+@media (max-width: 580px)
+  .container
+    width: 480px
+  .header
+    &__main
+      img
+        display: none
+  .menu
+    &__text
+      input
+        display: none
+@media (max-width: 480px)
+  .container
+    width: 320px
+  .footer
+    &__logo
+      display: flex
+      justify-self: start
+      &__main
+        text-align: left
     &__network
-      min-width: 300px
+      width: 69%
