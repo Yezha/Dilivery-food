@@ -10,7 +10,7 @@ img
   max-width: 1170px
   margin: auto
 input
-  padding: 8px 15px 8px 25px
+  padding: 8px 20px 8px 25px
   outline: none
 .background
     width: 100%
@@ -55,6 +55,9 @@ input
     &__text
       input
         display: none
+  ul
+    flex-direction: column
+    line-height: 2
 @media (max-width: 480px)
   .container
     width: 320px
@@ -66,3 +69,18 @@ input
         text-align: left
     &__network
       width: 69%
+  ul
+    li
+      padding: 0 0 15px 0
+      font-size: 18px
+      font-weight: bold
+@media (max-width: 380px)
+  .container
+    width: 320px
+  ul
+    li
+      padding: 0 0 15px 0
+  .navbar
+    &__logo
+      span
+        display: none
